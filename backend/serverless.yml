@@ -1,0 +1,14 @@
+service: checkout-task-service
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+
+functions:
+  createTask:
+    handler: dist/task.createTask
+    events:
+      - http:
+          path: bot/task/create
+          method: post

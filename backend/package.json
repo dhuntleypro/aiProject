@@ -1,0 +1,16 @@
+{
+    "name": "master-task",
+    "version": "1.0.0",
+    "description": "Lambda function that uses aws-sdk to call master-utils",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+      "deploy": "echo 'Add your deployment script here'"
+    },
+    "dependencies": {
+      "aws-sdk": "^2.1414.0", 
+      "html-entities": "^2.6.0"
+
+    }
+  }
+  
