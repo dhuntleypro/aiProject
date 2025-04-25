@@ -1,0 +1,7 @@
+
+
+
+1. Calling function : ex  - 
+const getUserData = require('../../utils/get/getUserData');
+
+call ==== getUserData.getUserData

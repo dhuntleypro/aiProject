@@ -1,0 +1,14 @@
+{
+  "name": "first-run-aws",
+  "author": "Darrien Huntley",
+  "version": "1.0.0",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "jsonwebtoken": "8.5.1",
+    "nodemailer": "^6.9.5",
+ 
+    "openai": "^4.78.1",
+    "shippo": "^1.7.1",
+    "stripe": "^12.13.0"
+  }
+}
